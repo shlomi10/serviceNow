@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-06T18:38:57 IDT" name="Suite" finished-at="2020-07-06T18:39:14 IDT" duration-ms="16391">
+    <groups>
+      <group name="perform serach on event">
+        <method signature="MainRunner.performsearch()[pri:4, instance:tests.MainRunner@2f177a4b]" name="performsearch" class="tests.MainRunner"/>
+      </group> <!-- perform serach on event -->
+      <group name="validate results from table">
+        <method signature="MainRunner.validateResultsFromTable()[pri:5, instance:tests.MainRunner@2f177a4b]" name="validateResultsFromTable" class="tests.MainRunner"/>
+      </group> <!-- validate results from table -->
+      <group name="Open Web Site">
+        <method signature="MainRunner.upFooterOpenWebSite()[pri:1, instance:tests.MainRunner@2f177a4b]" name="upFooterOpenWebSite" class="tests.MainRunner"/>
+      </group> <!-- Open Web Site -->
+      <group name="validate events page">
+        <method signature="MainRunner.eventsPage()[pri:3, instance:tests.MainRunner@2f177a4b]" name="eventsPage" class="tests.MainRunner"/>
+      </group> <!-- validate events page -->
+      <group name="validate overview page">
+        <method signature="MainRunner.loginToWebSite()[pri:2, instance:tests.MainRunner@2f177a4b]" name="loginToWebSite" class="tests.MainRunner"/>
+      </group> <!-- validate overview page -->
+    </groups>
+    <test started-at="2020-07-06T18:38:57 IDT" name="load web site" finished-at="2020-07-06T18:39:14 IDT" duration-ms="16391">
+      <class name="tests.MainRunner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:38:57 IDT" name="setup" finished-at="2020-07-06T18:39:03 IDT" duration-ms="5641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="upFooterOpenWebSite()[pri:1, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:03 IDT" name="upFooterOpenWebSite" description="Open the web site" finished-at="2020-07-06T18:39:08 IDT" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upFooterOpenWebSite -->
+        <test-method signature="loginToWebSite()[pri:2, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:08 IDT" name="loginToWebSite" description="validate that the user logged in" finished-at="2020-07-06T18:39:10 IDT" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToWebSite -->
+        <test-method signature="eventsPage()[pri:3, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:10 IDT" name="eventsPage" description="validate the user land at events page" finished-at="2020-07-06T18:39:12 IDT" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventsPage -->
+        <test-method signature="performsearch()[pri:4, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:12 IDT" name="performsearch" description="search term on event page" finished-at="2020-07-06T18:39:13 IDT" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performsearch -->
+        <test-method signature="validateResultsFromTable()[pri:5, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:13 IDT" name="validateResultsFromTable" description="validate results from table" finished-at="2020-07-06T18:39:13 IDT" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultsFromTable -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.MainRunner@2f177a4b]" started-at="2020-07-06T18:39:13 IDT" name="close" finished-at="2020-07-06T18:39:14 IDT" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.MainRunner -->
+    </test> <!-- load web site -->
+  </suite> <!-- Suite -->
+</testng-results>
